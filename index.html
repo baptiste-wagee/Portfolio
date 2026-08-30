@@ -1,0 +1,158 @@
+<!--
+Nom du fichier : index.htlm
+Auteur : Baptiste Wagée
+Date de création : 02 juillet 2026
+Version : 1.0
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZ'ELI</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="logo-container">PIZZ'ELI 🍕</div>
+<nav id="navbar">
+    <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#menu">Carte</a></li> <!--TODO (Faire les images et les pizza qui manque)-->
+        <li><a href="#Commander">Commander</a></li>
+        <li><a href="#localisation">Localisation</a></li>
+        <li><a href="#Recrutement">Recrutement</a></li>
+        <li><a href="#mention-legales">Mention legales</a></li>
+    </ul>
+</nav>
+
+<header id="hero">
+    <div class="hero-content">
+        <p>L'authentique pizza napolitaine livrée chez vous.</p>
+        <a href="#menu" class="scroll">↓</a>
+    </div>
+</header>
+<main>
+    <!-- ===================== MENU ===================== -->
+    <section id="menu">
+        <h2>Notre Carte</h2>
+        <div class="menu-tabs">
+            <button class="tab active" data-tab="pizzas">
+                🍕 Pizzas
+            </button>
+            <button class="tab" data-tab="desserts">
+                🍰 Desserts
+            </button>
+            <button class="tab" data-tab="boissons">
+                🥤 Boissons
+            </button>
+        </div>
+        <div id="menu-content"></div>
+
+    </section>
+
+    <!-- ===================== Commander ===================== -->
+    <section id="Commander">
+        <div class="commander-container">
+            <h2>Prêt pour une dégustation ?</h2>
+            <p>Commandez vos pizzas préférées en quelques clics et faites-vous livrer rapidement.</p>
+
+            <div class="cta-group">
+                <a href="https://commande.pizz-eli.com/" class="btn-commander">Commander en ligne</a>
+                <p>Ou appelez-nous au <a href="tel:0320961577" class="phone-link">03 20 96 15 77</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== Localisation ===================== -->
+    <section id="localisation">
+        <div class="loc-text">
+            <h2>Ou nous trouver ?</h2>
+            <p>Pizz'Eli Sainghin en Weppes</p>
+            <p>Venez nous rencontrer dans notre pizzeria chaleureuse ou commandez à emporter. <br>L'authentique pizza napolitaibre, au coeur de la métropole</p>
+            <br>
+            <p><img src="images/canvas4.png" class="img">Adresse : 31 Rue du Capitaine Lheureux, 59184 Sainghin-en-Weppes</p>
+            <p><img src="images/canvas3.png" class="img">Tél : 03 20 96 15 77</p>
+            <p><img src="images/canvas2.png" class="img">Horraires Ouvert tous les jours, sauf le dimanche midi.<br> Midi : 11h30 - 14h. <br> Soir : 18h - 22h.</p>
+            <p><img src="images/canvas.png" class="img">Secteur de Livraison : Sainghin-en-Weppes, Don, Marquillies, Wicres et Wavrin</p>
+        </div>
+        <div class="loc-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2534.523695857812!2d2.8982340766746617!3d50.561627079352505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dd2b0f3a8fe653%3A0xef5df8708d26e53f!2sPizz&#39;Eli%20Sainghin-en-Weppes!5e0!3m2!1sfr!2sfr!4v1783000886190!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+    </section>
+
+    <!-- ===================== Recrutement ===================== -->
+    <section id="Recrutement">
+        <div class="recrutement-container">
+            <h2>Envie de travailler a Pizz'Eli ?</h2>
+            <p class="recrutement-intro">Passionné(e) par la vraie pizza napolitaine ? Nous sommes toujours à la recherche de nouveau employé souriants et motivés pour agrandir notre équipe.</p>
+
+            <div class="jobs-grid">
+                <div class="job-card">
+                    <h3>🛵 Livreur / Livreuse</h3>
+                    <p>Tu es dynamique et tu connais le secteur des Weppes comme ta poche ? Viens nous aider à livrer nos pizzas !</p>
+                    <span class="job-status">Poste à pourvoir</span>
+                </div>
+                <div class="job-card">
+                    <h3>👨‍🍳Pizzaïolo(a)👩‍🍳</h3>
+                    <p>L'art de la pizza n'a pas de secret pour toi. Viens nous rejoindre pour faire les pizzas !</p>
+                    <span class="job-status">Candidature spontanée</span>
+                </div>
+            </div>
+            <div class="recrutement-cta">
+                <p>Convaincu d'etre la personne qui changera la pizzeria ?<br> Depose ton cv juste en bas !</p>
+                <a href="mailto:contact@pizz-eli.com?subject=Candidature%20Pizz'Eli" class="btn-commander">Envoyer mon CV par Email</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== mention-legales ===================== -->
+
+    <section id="mention-legales">
+        <div class="loc-text">
+            <h2>Mention-legales</h2>
+            <p>Pizz'Eli Sainghin en Weppes</p>
+            <p><img src="images/www-removebg-preview.png" class="img">Nom du site : www.pizz-eli.com</p>
+            <p><img src="images/icone-de-l-homme-rouge-removebg-preview.png" class="img">Raison Sociale : EV HOLDING</p>
+            <p><img src="images/canvas4.png" class="img">Adresse : 7-9 rue de l'égalité <br> 59480 LA BASSEE FRANCE </p>
+            <p><img src="images/canvas.png" class="img"> SIRET : 87902753000028 </p>
+        </div>
+    </section>
+
+    <!-- ===================== Footer ===================== -->
+
+    <footer id="Footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>🍕 Pizz'Eli</h3>
+                <p>
+                    L'authentique pizza napolitaine à
+                    Sainghin-en-Weppes.
+                </p>
+            </div>
+            <div class="footer-col">
+                <h3>Navigation</h3>
+                <a href="#">Accueil</a>
+                <a href="#menu">Carte</a>
+                <a href="#Commander">Commander</a>
+                <a href="#localisation">Localisation</a>
+                <a href="#Recrutement">Recrutement</a>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>📍 31 Rue du Capitaine Lheureux</p>
+                <p>59184 Sainghin-en-Weppes</p>
+                <p>📞 03 20 96 15 77</p>
+                <p>✉ contact@pizz-eli.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2026 Pizz'Eli • Tous droits réservés •
+            <a href="#mention-legales">Mentions légales</a>
+        </div>
+    </footer>
+</main>
+<script src="JS/index.js"></script>
+</body>
+</html>
