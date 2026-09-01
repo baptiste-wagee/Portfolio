@@ -53,7 +53,7 @@ body {
     list-style: none;
     gap: 32px;
     justify-content: center;
-    flex: 7;
+    flex: 8;
 }
 
 #navbar a {
