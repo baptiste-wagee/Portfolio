@@ -6,8 +6,7 @@ Le site a été entièrement réalisé en **HTML**, **CSS** et **JavaScript**, a
 
 ## 📸 Aperçu
 
-<img width="1920" height="1080" alt="image" src="![En cours de développement](<img width="1024" height="572" alt="DevEnCours" src="https://github.com/user-attachments/assets/5139e2ad-7f14-4635-837a-3c28574033eb" />
-)" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5139e2ad-7f14-4635-837a-3c28574033eb" />
 
 ## 🌐 Lien
 
