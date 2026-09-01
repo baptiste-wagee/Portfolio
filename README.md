@@ -10,7 +10,7 @@ Le site a été entièrement réalisé en **HTML**, **CSS** et **JavaScript**, a
 
 ## 🌐 Lien
 
-👉 *Pas encore déployé*
+👉 *Pas encore déployé sur le web*
 
 ## 📖 À propos du projet
 
