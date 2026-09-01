@@ -4,6 +4,11 @@ Mon portfolio est un projet personnel que j'ai développé afin de mettre en pra
 
 Le site a été entièrement réalisé en **HTML**, **CSS** et **JavaScript**, avec pour objectif principal de progresser en développement front-end tout en proposant une interface moderne et agréable.
 
+## 📸 Aperçu
+
+<img width="1920" height="1080" alt="image" src="![En cours de développement](<img width="1024" height="572" alt="DevEnCours" src="https://github.com/user-attachments/assets/5139e2ad-7f14-4635-837a-3c28574033eb" />
+)" />
+
 ## 🌐 Lien
 
 👉 *Pas encore déployé*
@@ -35,10 +40,6 @@ L'objectif n'est pas seulement de créer un site fonctionnel, mais également de
 * Améliorer mes compétences en développement front-end ainsi qu'en conception d'interfaces (UI/UX)
 * Découvrir de nouvelles techniques en JavaScript
 * Réaliser un projet concret pouvant être enrichi sur mon GitHub
-
-## 📸 Aperçu
-
-<img width="1920" height="1080" alt="image" src="![En cours de développement](image.png)" />
 
 ## 📂 Installation
 
