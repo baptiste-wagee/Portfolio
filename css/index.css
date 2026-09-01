@@ -43,7 +43,7 @@ body {
     font-family: Arial, sans-serif;
     font-size: 24px;
     font-weight: 800;
-    color: #0F172A;
+    color: #000000;
     flex: 1;
 }
 
@@ -53,28 +53,37 @@ body {
     list-style: none;
     gap: 32px;
     justify-content: center;
-    flex: 2;
+    flex: 7;
 }
 
 #navbar a {
-    color: #475569;
+    color: #000000;
     text-decoration: none;
-    font-weight: 500;
     font-size: 15px;
     transition: color 0.2s ease;
 }
 
 #navbar a:hover {
-    color: #0F172A;
+    color: #4a4a4a;
 }
 
 /* 3. Bouton "Me contacter" à droite */
+
+#navbar .btn-contact{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    transition: color 0.2s ease;
+      text-decoration: underline;
+}
+
 .btn-contact {
     display: inline-flex;
     align-items: center;
     gap: 8px;
     padding: 10px 20px;
-    background-color: #0F172A;
+    background-color: #000000;
     color: #FFFFFF ;
     border-radius: 10px;
     text-decoration: none;
@@ -84,13 +93,14 @@ body {
 }
 
 .btn-contact:hover {
-    background-color: #1E293B;
+    background-color: #000000;
     transform: translateY(-1px);
+    
 }
 
 .btn-contact .img {
-    width: 16px;
-    height: 16px;
+    width: 25px;
+    height: 30px;
     filter: invert(1); /* Passe l'icône en blanc */
 }
 
@@ -111,7 +121,7 @@ body {
 
 main {
     background: #F8F9FA;
-    color: #0F172A;
+    color: hsl(222, 47%, 11%);
 }
 
 section {
