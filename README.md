@@ -1,4 +1,4 @@
-# 🍕 Pizz-Eli
+# Portfolio
 
 **Pizz-Eli** est un projet personnel que j'ai développé afin de mettre en pratique mes compétences en **développement web** à travers la création d'un site moderne pour la pizzeria **Pizz'Eli**, située à **Sainghin-en-Weppes**.
 
